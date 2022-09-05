@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 
 import Title from '../Common/title/Title'
-import InfoImg from '../../Assets/779.jpg'
+import InfoImg from '../../Assets/794.jpg'
 import { homeAbout } from '../../Data'
 import AWrapper from './AWrapper'
 
@@ -15,7 +15,7 @@ const AboutCard = () => {
                     <img src={InfoImg} alt="info image" />
                 </div>
                 <div className="right row">
-                    <Title subtitle="about our business and what we offer to the agribusiness industry" title="MAKE AN ORDER"/>
+                    <Title subtitle="WE ARE THE LEADING SUPPLIER OF SWEET POTATO PRODUCTS IN KENYA" title="MAKE AN ORDER"/>
                     <div className="items">
                         {homeAbout.map((val) => (
                             <div className="item flexSB">

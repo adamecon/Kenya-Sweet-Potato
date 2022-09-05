@@ -11,7 +11,7 @@ const HAbout = () => {
                 <Title subtitle="our products" title="our farm products"/>
                 <div className="coursesCard">
                     <div className="grid2">
-                    {coursesCard.map((val)=> {
+                    {coursesCard.slice(0,3).map((val)=> {
                         return(
                             <div className="items">
                                 <div className="content flex">

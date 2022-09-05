@@ -3,19 +3,19 @@ export const homeAbout = [
       id: 1,
       cover: "https://img.icons8.com/ios/50/000000/plant-under-sun.png",
       title: "Sweet Potato Vines Supplying",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      desc: "We are now the leading supplier of sweet potato vines throughout the republic of Kenya. We sell both yellow-fleshed and the orange sweet potato varieties. The yellow fleshed is still the most widely consumed variety in Kenya while the orange fleshed variety is fast growing in popularity thanks to its high nutrient content and fast maturing period.",
     },
     {
       id: 1,
       cover: "https://img.icons8.com/emoji/48/000000/roasted-sweet-potato-emoji.png",
       title: "Sweet Potato Tubers Supply",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      desc: "With over 15 years experience in the sweet potato farming business, Kabondo Farms understands the sweet potato business like no one else. We will help you grow your sweet potato farming business by offering you a constant access to reliable markets and fresh produce{for buyers}.",
     },
     {
       id: 1,
       cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-      title: "Expert Training On Sweet Potato Farming",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+      title: "We Supply Directly From Farmers",
+      desc: "Stuck with your sweet produce in your farm? Or looking to purchase sweet potatoes from reliable suppliers as quickly as possible? We now offer a sweet potato market referral and linkage service to help you sell your sweet potato produce within the shortest time possible. We have a database of buyers who want to purchase your sweet potatoes and farmers who want to sell their produce to the market so whatever your needs, our service makes things possible for you",
     },
   ]
   export const awrapper = [
@@ -260,64 +260,57 @@ export const homeAbout = [
       price: "2500",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
-    {
-      name: "Orange Fleshed Vines",
-      price: "2500",
-      desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    },
+    
     
   ]
   export const faq = [
     {
-      title: "How to Enroll This Online Courses?",
-      desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "Which sweet potato varieties are offered? ",
+      desc: "Sweet Potato vines and tubers are available in three varieties: Yellow Fleshed, Orange Fleshed and White Fleshed",
     },
     {
-      title: "Where It is hidden by default, until the collapse?",
-      desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "How can I place an order for sweet potato vines or tubers?",
+      desc: "You can place your order of sweet potato vines by reaching out to us via phone: +254725772524 email:ochanjijane@yahoo.com",
     },
     {
-      title: "How It is hidden by default, until the collapse?",
-      desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "To which destinations are the vines or tubers deliverd?",
+      desc: "Nairobi, Mombasa, Kakamega, Eldoret",
     },
     {
-      title: "How to Enroll This Online Courses?",
-      desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "Where is Kenya Sweet Potato situated?",
+      desc: "Homa Bay, Kenya",
     },
     {
-      title: "Where It is hidden by default, until the collapse?",
-      desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+      title: "How can I receive training or consultation?",
+      desc: "Reach out to us via our contact details.",
     },
-    {
-      title: "How It is hidden by default, until the collapse?",
-      desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
-    },
+    
   ]
   export const blog = [
     {
       id: 1,
-      type: "admin",
+      type: "jane",
       date: "JAN. 18, 2021",
-      com: "3 COMMENTS ",
-      title: "Build your Dream Software & Engineering Career",
+      com: "0 comments ",
+      title: "Sweet Potato Marketing",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
       cover: "./Assets/792.jpg",
     },
     {
       id: 2,
-      type: "admin",
+      type: "jane",
       date: "API. 25, 2022",
-      com: "5 COMMENTS ",
-      title: "Build your Dream Software & Engineering Career",
+      com: "0 comments",
+      title: "Sweet Potato Farming",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
       cover: "./Assets/792.jpg",
     },
     {
       id: 3,
-      type: "user",
+      type: "ochani",
       date: "MAY. 15, 2022",
-      com: "10 COMMENTS ",
-      title: "Build your Dream Software & Engineering Career",
+      com: "0 comments ",
+      title: "Best Conditions For Sweet Potato Farming",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
       cover: "./Assets/792.jpg",
     },

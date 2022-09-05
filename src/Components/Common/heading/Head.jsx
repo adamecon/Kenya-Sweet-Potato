@@ -12,10 +12,10 @@ const Head = () => {
                 </div>
 
                 <div className="social">
-                    <i className="fab fa-facebook-f icon"></i>
-                    <i className="fab fa-instagram icon"></i>
-                    <i className="fab fa-twitter icon"></i>
-                    <i className="fab fa-youtube icon"></i>
+                    <a className="fab fa-facebook-f icon" href="https://www.facebook.com/KenyaSweetPotato/"></a>
+                    <a className="fab fa-instagram icon" href="https://twitter.com/SweetPotatoKe?lang=en"></a>
+                    <a className="fab fa-twitter icon" href="https://twitter.com/SweetPotatoKe?lang=en"></a>
+                    <a className="fab fa-youtube icon" href="https://twitter.com/SweetPotatoKe?lang=en"></a>
                 </div>
             </div>
         </section>

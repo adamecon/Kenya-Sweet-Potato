@@ -1,5 +1,6 @@
 import React from 'react'
 import { blog } from '../../../Data'
+import { Link } from 'react-router-dom'
 
 import './Footer.css'
 
@@ -10,7 +11,7 @@ const Footer = () => {
             <div className="container flexSB">
                 <div className="left row">
                     <h1>Subscribe To Our Newsletter</h1>
-                    <span>lorem ipsum dbhbsd dbvhbs dsvbsdbv </span>
+                    <span>Subscribe to our newsletter to get the latest updates on our products and services</span>
                 </div>
                 <div className="right row">
                     <input type="email" placeholder="enter your email" />
@@ -23,26 +24,27 @@ const Footer = () => {
                 <div className="box logo">
                     <h1>Kenya Sweet Potato</h1>
                     <span>Agribusiness Company</span>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <i className="fab fa-facebook-f icon"></i>
-                    <i className="fab fa-instagram icon"></i>
-                    <i className="fab fa-twitter icon"></i>
+                    <p>You can make your order of sweet potato vines and tubers by reaching out to us via our contact details</p>
+                    <a className="fab fa-facebook-f icon" href="https://www.facebook.com/KenyaSweetPotato/"></a>
+                    <a className="fab fa-twitter icon" href="https://twitter.com/sweetpotatoke?lang=en"></a>
+                    <a className="fab fa-instagram icon" href="https://www.facebook.com/KenyaSweetPotato/"></a>
                     
                 </div>
                 <div className="box link">
                     <h3>Explore</h3>
                     <ul>
-                        <li>About Us</li>
-                        <li>About Us</li>
-                        <li>About Us</li>
+                        <li><Link to="/about">About Us</Link></li>
+                        <li><Link to="/pricing">Pricing</Link></li>
+                        <li><Link to="/blogs">Blogs</Link></li>
+                        
                     </ul>
                 </div>
                 <div className="box link">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li>About Us</li>
-                        <li>About Us</li>
-                        <li>About Us</li>
+                        <li><Link to="/pricing">FAQs</Link></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/products">Products</Link></li>
                     </ul>
                 </div>
                 <div className="box">

@@ -4,13 +4,17 @@ import './Contact.css'
 import Back from '../Common/back/Back'
 
 const Contact = () => {
+
+    const map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7979.393694869078!2d34.887134931857766!3d-0.44709713541133395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182ae0e9e5a91edf%3A0x80b0eb1afa9dbf06!2sKadongo!5e0!3m2!1sen!2ske!4v1662338275307!5m2!1sen!2ske";
+
+
   return (
     <>
         <Back title="Contact Us" />
         <section className="contact padding">
             <div className="container shadow flexSB">
                <div className="left row">
-                    <iframe src=""></iframe>
+                    <iframe src={map}></iframe>
                 </div> 
                 <div className="right row">
                     <h1>Contact Us</h1>
