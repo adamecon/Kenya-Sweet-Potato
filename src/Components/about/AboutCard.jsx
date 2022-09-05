@@ -4,7 +4,7 @@ import './About.css'
 import Title from '../Common/title/Title'
 import InfoImg from '../../Assets/794.jpg'
 import { homeAbout } from '../../Data'
-import AWrapper from './AWrapper'
+
 
 const AboutCard = () => {
   return (
@@ -20,7 +20,7 @@ const AboutCard = () => {
                         {homeAbout.map((val) => (
                             <div className="item flexSB">
                                 <div className="img">
-                                    <img src={val.cover} alt="img" />
+                                    <img src={val.cover} alt="" />
                                 </div>
                                 <div className="text">
                                     <h2>{val.title}</h2>

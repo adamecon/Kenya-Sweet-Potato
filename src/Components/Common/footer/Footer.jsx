@@ -25,9 +25,9 @@ const Footer = () => {
                     <h1>Kenya Sweet Potato</h1>
                     <span>Agribusiness Company</span>
                     <p>You can make your order of sweet potato vines and tubers by reaching out to us via our contact details</p>
-                    <a className="fab fa-facebook-f icon" href="https://www.facebook.com/KenyaSweetPotato/"></a>
-                    <a className="fab fa-twitter icon" href="https://twitter.com/sweetpotatoke?lang=en"></a>
-                    <a className="fab fa-instagram icon" href="https://www.facebook.com/KenyaSweetPotato/"></a>
+                    <a className="fab fa-facebook-f icon" href="https://www.facebook.com/KenyaSweetPotato/">{null}</a>
+                    <a className="fab fa-twitter icon" href="https://twitter.com/sweetpotatoke?lang=en">{null}</a>
+                    <a className="fab fa-instagram icon" href="https://www.facebook.com/KenyaSweetPotato/">{null}</a>
                     
                 </div>
                 <div className="box link">

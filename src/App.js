@@ -5,12 +5,12 @@ import Home from './Components/Home/Home';
 import Header from './Components/Common/heading/Header'
 import About from './Components/about/About';
 import ProductHome from './Components/products/ProductHome'
-import Team from './Components/team/Team';
+
 import Pricing from './Components/pricing/Pricing';
 import Contact from './Components/contact/Contact';
 
 
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import Blog from './Components/blogs/Blog';
 import Footer from './Components/Common/footer/Footer';
 

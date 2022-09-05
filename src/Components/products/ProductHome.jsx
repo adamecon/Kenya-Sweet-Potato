@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import Back from '../Common/back/Back'
-import ProductCard from './ProductCard'
 import HBlog from '../Home/HBlog'
 import HPrice from '../Home/HPrice'
 

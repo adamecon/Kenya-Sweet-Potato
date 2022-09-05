@@ -9,10 +9,10 @@ import BlogCard from './BlogCard'
 const Blog = () => {
   return (
     <>
-        <Back title="Feature Blogs" subtitle="Blogs" />
+        <Back title="Blogs Are Coming Soon" subtitle="Blogs" />
         <section className="blog padding">
             <div className="container grid2">
-                <BlogCard />
+               
             </div>
         </section>
     
