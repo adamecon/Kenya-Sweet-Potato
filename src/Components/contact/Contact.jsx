@@ -14,7 +14,7 @@ const Contact = () => {
         <section className="contact padding">
             <div className="container shadow flexSB">
                <div className="left row">
-                    <iframe src={map}></iframe>
+                    <iframe src={map} title="on the map"></iframe>
                 </div> 
                 <div className="right row">
                     <h1>Contact Us</h1>

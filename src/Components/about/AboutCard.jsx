@@ -12,7 +12,7 @@ const AboutCard = () => {
         <section className="aboutHome">
             <div className="container flexSB">
                 <div className="left row">
-                    <img src={InfoImg} alt="info image" />
+                    <img src={InfoImg} alt="" />
                 </div>
                 <div className="right row">
                     <Title subtitle="WE ARE THE LEADING SUPPLIER OF SWEET POTATO PRODUCTS IN KENYA" title="MAKE AN ORDER"/>

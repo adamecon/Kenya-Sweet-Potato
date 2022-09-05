@@ -3,7 +3,7 @@ import './Blog.css'
 
 
 import Back from '../Common/back/Back'
-import BlogCard from './BlogCard'
+
 
 
 const Blog = () => {
