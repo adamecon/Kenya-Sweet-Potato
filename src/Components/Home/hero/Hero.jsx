@@ -8,7 +8,8 @@ const Hero = () => {
       <section className='hero'>
         <div className='container'>
           <div className='row'>
-            <Title subtitle='The Home Of Fresh Organic Sweet Potatoes' title='WELCOME TO KENYA SWEET POTATO' />
+            <Title subtitle='We are the leading supplier of sweet potato vines in Kenya. We sell yellow 
+              fleshed, orange fleshed and white fleshed sweet potato vines"' title='WELCOME TO KENYA SWEET POTATO' />
             
             <div className='button'>
               <button className='primary-btn'>
