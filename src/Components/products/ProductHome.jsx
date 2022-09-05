@@ -2,13 +2,16 @@ import React, { Component } from 'react'
 
 import Back from '../Common/back/Back'
 import ProductCard from './ProductCard'
+import HBlog from '../Home/HBlog'
+import HPrice from '../Home/HPrice'
 
 
 const ProductHome = () => {
     return(
        <>
-           <Back title="explore some of our products"/>
-           <ProductCard />
+           <Back />
+           <HPrice />
+           <HBlog />
        
        </>
     )

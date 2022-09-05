@@ -12,7 +12,7 @@ const HBlog = () => {
             <div className="container">
                 <Title title="Varieties" subtitle="potato varieties" />
                 <div className="grid2">
-                {blog.slice(0,3).map((val) => {
+                {blog.map((val) => {
                     return(
                         <div className="items shadow">
                             <div className="img">
